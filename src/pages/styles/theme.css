@@ -1,0 +1,17 @@
+/* theme.css */
+
+:root {
+    --primary-color: rgb(255, 111, 111); /* Основной цвет */
+    --secondary-color: rgb(0, 159, 227); /* Вторичный цвет */
+    --background-color: #f4f4f4; /* Серый фон */
+    --text-color: #333; /* Цвет текста */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}

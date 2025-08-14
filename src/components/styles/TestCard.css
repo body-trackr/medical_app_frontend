@@ -1,0 +1,27 @@
+.test-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.test-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.test-card h3 {
+    color: #009fe3;
+}
+
+.test-card .parameters {
+    margin-top: 12px;
+}
+
+.test-card .reference-check {
+    color: #4caf50;
+    font-size: 24px;
+}

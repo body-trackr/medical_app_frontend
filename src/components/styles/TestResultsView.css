@@ -1,0 +1,43 @@
+/* frontend/src/components/styles/TestResultsView.css */
+
+.test-results-container {
+    padding: 20px;
+    position: relative;
+}
+
+.test-results-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.test-results-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.test-results-container th,
+.test-results-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.test-results-container th {
+    background-color: #f2f2f2;
+}
+
+.reference-value {
+    background-color: #d4edda; /* Light green background to indicate reference value */
+    color: #155724; /* Dark green text */
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.pagination-arrow {
+    cursor: pointer;
+    font-size: 20px;
+}

@@ -1,0 +1,123 @@
+/* frontend/src/pages/styles/Register.css */
+
+@import './theme.css';
+
+.register-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Стили для описания приложения */
+.app-description {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: var(--text-color);
+}
+
+/* Стили для ссылки на Telegram канал */
+.telegram-link {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: var(--primary-color);
+}
+
+.telegram-link a {
+    color: var(--primary-color);
+    text-decoration: underline; /* Подчёркивание текста */
+    font-weight: bold; /* Жирный текст */
+}
+
+.title {
+    color: var(--secondary-color); /* Синий цвет заголовка */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group span {
+    margin-right: 10px;
+    color: var(--text-color);
+}
+
+.input-primary {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.button-primary,
+.button-secondary {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    background: linear-gradient(to bottom, #ff6f6f 0%, #ff8f8f 100%); /* Градиент объема-света */
+}
+
+.button-primary:hover {
+    background: linear-gradient(to bottom, #ff8f8f 0%, #ff6f6f 100%); /* Градиент при наведении */
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+}
+
+.button-secondary[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+}
+
+.confirmation-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmation-message p {
+    margin: 0;
+}
+
+.edit-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+/* Стили для футера */
+.footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+.footer a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}

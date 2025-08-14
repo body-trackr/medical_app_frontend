@@ -1,0 +1,25 @@
+/* frontend/src/pages/styles/MyFiles.css */
+
+.files-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.files-table th, .files-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.files-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.files-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.files-table tr:hover {
+    background-color: #ddd;
+}

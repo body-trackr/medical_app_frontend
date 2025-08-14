@@ -1,0 +1,42 @@
+.header {
+    background-color: #f4f4f4; /* Светло-серый фон */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+}
+
+.nav-link, .nav-button {
+    text-decoration: none;
+    color: #009fe3; /* Основной синий цвет */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-button:hover {
+    color: #ff6f6f; /* Основной красный цвет при наведении */
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    padding: 0;
+}

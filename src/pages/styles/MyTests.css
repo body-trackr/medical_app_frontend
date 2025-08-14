@@ -1,0 +1,45 @@
+.container {
+    padding: 20px;
+}
+
+.button-container {
+    display: flex; /* Используем Flexbox для горизонтального расположения */
+    align-items: center; /* Выравнивание по вертикали по центру */
+}
+
+.test-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.add-button {
+    /* Стили для кнопки с плюсом */
+    margin: 0 10px; /* Оставляем небольшой зазор между кнопками */
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-button:hover {
+    background-color: #e65959;
+}
+
+/* Скрываем стандартный input для файла */
+.upload-button {
+    display: none;
+}
+
+.custom-upload-button:hover {
+    background-color: #0088cc;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="${APP_NAME}"
+      content="Application for store medical test results"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Open Graph мета-теги для всех платформ -->
+    <meta property="og:title" content="${APP_NAME}: Ваша история медицинских анализов" />
+    <meta property="og:description" content="Приложение позволяет хранить историю медицинских анализов, управлять результатами и следить за своим здоровьем." />
+    <meta property="og:url" content="https://${DOMAIN_NAME}" />
+    <meta property="og:image" content="https://${DOMAIN_NAME}/preview.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="${APP_NAME}" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <!-- Twitter Card мета-теги -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${APP_NAME}: Ваша история медицинских анализов">
+    <meta name="twitter:description" content="Приложение позволяет хранить историю медицинских анализов, управлять результатами и следить за своим здоровьем.">
+    <meta name="twitter:image" content="https://${DOMAIN_NAME}/preview.jpg">
+
+    <!-- Специальный мета-тег для Телеграма -->
+    <meta name="telegram:card" content="summary_large_image">
+
+    <title>${APP_NAME}: Храните историю медицинских анализов</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

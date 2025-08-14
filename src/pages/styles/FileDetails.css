@@ -1,0 +1,26 @@
+.status-confirmed {
+    color: green;
+    font-weight: bold;
+}
+
+.status-manual-review {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: gray;
+}
+
+.process-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.process-button:hover {
+    background-color: #0056b3;
+}

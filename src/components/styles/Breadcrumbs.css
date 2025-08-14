@@ -1,0 +1,32 @@
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0; /* уменьшен отступ */
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumbs span {
+    margin-right: 5px;
+}
+
+.breadcrumb-separator {
+    margin-right: 5px;
+}
