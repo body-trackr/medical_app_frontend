@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Frontend repo for [labrius.app](https://labrius.app/admin/synonyms)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ТЗ на редизайн интерфейса
 
-## Available Scripts
+### **Текущие проблемы**
 
-In the project directory, you can run:
+- Устаревший визуальный стиль (кнопки, цвета, шрифты).
+- Несоответствие современным трендам UI/UX.
+- Пользователи отмечают, что интерфейс выглядит "страшно".
 
-### `npm start`
+### **Цель**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Переработать интерфейс, сохранив всю текущую логику, но сделав его:
+- Современным (минимализм, аккуратные компоненты).
+- Удобным (понятные hover-эффекты, отступы, типографика).
+- Визуально приятным (гармоничная цветовая схема).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+пример стиля https://www.awwwards.com/sites/metropolis-test-drive
 
-### `npm test`
+## **Требования**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Что нельзя менять
 
-### `npm run build`
+- Всю логику работы (роутинг, обработка форм, API-запросы).
+- Структуру компонентов (можно менять их внешний вид, но не поведение).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Что нужно переделать
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Кнопки/инпуты**: убрать «устаревший» стиль.
+- **Цвета**: подобрать современную палитру
+- **Типографика**:
+    - Размеры шрифтов, межстрочные расстояния.
+    - Если нет брендового шрифта — выбрать нейтральный.
+- **Отступы/сетка**: выровнять по современным стандарта.
+- **Адаптивность**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Технические ограничения
 
-### `npm run eject`
+- Библиотеки: можно использовать CSS-фреймворки (Tailwind, Material UI) или чистый CSS.
+- Нельзя: менять API-запросы, структуру папок.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Ресурсы**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Фронтенд-репозиторий: [вы здесь].
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Этапы**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Предложить 2-3 варианта цветовой схемы/типографики.
+2. Сверстать 1-2 ключевых страницы для согласования - создать отдельные ветки и пулл-реквесты.
+3. Приемка.
+4. Оплата
 
-## Learn More
+### Owner contacts
+- https://t.me/xander_pronin
+- xanderpronin@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### How to run
+1. ask owner for settings
+2. create file `.env` in the root of the repo
+3. 
+```bash
+ npm start
+```
